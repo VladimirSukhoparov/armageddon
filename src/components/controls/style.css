@@ -6,7 +6,6 @@
   width: 400px;
   height: 620px;
   background-size: contain;
-
 }
 
 .Controls-container {
@@ -56,7 +55,7 @@
   align-items: center;
   gap: 4px;
   border-radius: 40px;
-  background:  #f86600;
+  background: #f86600;
   font-family: Helvetica;
   font-size: 16px;
   font-style: normal;

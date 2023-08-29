@@ -1,6 +1,10 @@
 import { configureStore } from "@reduxjs/toolkit";
+import { default as asteroidSlise } from "./getLoadList";
 
-export const store = configureStore({
-  reducer: {},
-  devTools: true,
+const store = configureStore({
+  reducer: {
+    asteroids: asteroidSlise,
+  },
 });
+
+export default store;
