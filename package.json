@@ -2,6 +2,7 @@
   "name": "armageddon",
   "version": "1.0.0",
   "main": "index.js",
+  "homepage": "https://vladimirsukhoparov.github.io/armageddon",
   "scripts": {
     "start": "webpack serve",
     "build": "cross-env NODE_ENV=production webpack",
@@ -11,7 +12,6 @@
     "type": "git",
     "url": "git+https://github.com/VladimirSukhoparov/armageddon.git"
   },
-  "homepage": "https://github.com/VladimirSukhoparov/armageddon#readme",
   "dependencies": {
     "@bem-react/classname": "^1.6.0",
     "@reduxjs/toolkit": "^1.9.5",
