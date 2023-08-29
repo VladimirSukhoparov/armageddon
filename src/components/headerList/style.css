@@ -1,0 +1,40 @@
+.HeaderList-title {
+  font-family: Helvetica;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px;
+  align-self: stretch;
+  margin-bottom: 8px;
+}
+
+.HeaderList-sorting {
+  text-decoration: underline;
+}
+
+.HeaderList-sorting,
+.HeaderList-divider {
+  font-family: Helvetica;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  display: inline;
+}
+
+.HeaderList-active {
+  font-family: Helvetica;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.HeaderList-sorting:hover {
+  cursor: pointer;
+}
+
+.HeaderList-divider {
+  margin: 0 10px;
+  gap: 24px;
+}
